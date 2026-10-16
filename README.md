@@ -25,7 +25,7 @@ Följande skärmbredder har kontrollerats:
 - **768 px:** Test av en större skärm. Artiklarna visas i två kolumner och bilderna håller sig inom sidans bredd. Även formuläret och sidfoten har kontrollerats.
 - **Dator:** Webbplatsen har öppnats och kontrollerats i en vanlig webbläsare för att se att layouten fungerar på större skärmar.
 
-Layouten är byggd med **CSS Grid och Flexbox**. CSS Grid används för att placera artiklarna i kolumner och Flexbox används för navigeringen. Med hjälp av en media query ändras artikel布局en till en kolumn på mindre skärmar.
+Layouten är byggd med **CSS Grid och Flexbox**. CSS Grid används för att placera artiklarna i kolumner och Flexbox används för navigeringen. Med hjälp av en media query ändras artikellayouten till en kolumn på mindre skärmar.
 
 Vid testerna kontrollerades följande delar:
 
