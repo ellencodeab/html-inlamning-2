@@ -51,3 +51,29 @@ header nav a {
 header nav a:hover {
     text-decoration: underline;
 }
+/* Article layout with CSS Grid */
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+
+main article:first-child {
+    grid-column: 1 / -1;
+}
+
+main aside {
+    grid-column: 1 / -1;
+}
+
+/* Responsive layout for mobile */
+@media (max-width: 768px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+
+    main article:first-child,
+    main aside {
+        grid-column: 1;
+    }
+}
