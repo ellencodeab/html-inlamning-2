@@ -1,0 +1,35 @@
+/* Grundläggande stil för tidningssidan */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #222;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #243447;
+    color: white;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0 0 15px;
+}
+
+main {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
