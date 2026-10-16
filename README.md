@@ -14,6 +14,23 @@ CSS har validerats med W3C CSS Validator utan fel.
 
 En skärmbild av valideringsresultatet finns i repositoryt.
 
+## Tillgänglighet och Lighthouse
+
+Jag har testat webbplatsens tillgänglighet med Lighthouse i Google Chrome Dev.
+
+Testet gjordes på den publicerade webbplatsen med inställningen Mobile och kategorin Accessibility.
+
+Resultatet blev **100 av 100 poäng**. Lighthouse visade 26 godkända automatiska kontroller.
+
+Jag kontrollerade särskilt färgkontrasten mellan text och bakgrund. Kontrollen *Background and foreground colors have a sufficient contrast ratio* blev godkänd, vilket betyder att Lighthouse inte hittade några problem med färgkontrasten.
+
+Jag sparade två skärmbilder från testet i mitt GitHub-repository:
+
+- `Skärmavbild 2026-10-16 kl. 12.16.55.png` – Lighthouse-resultatet.
+- `Skärmavbild 2026-10-16 kl. 12.18.28.png` – kontrollen av färgkontrasten.
+
+Testet visar att webbplatsen klarade Lighthouse automatiska tillgänglighetskontroller. Jag är medveten om att vissa delar av tillgängligheten även behöver kontrolleras manuellt.
+
 ## Responsiv design och testning
 
 Webbplatsen har testats i Safari på både dator och olika skärmstorlekar med hjälp av webbläsarens responsiva designläge.
