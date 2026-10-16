@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tidningsnamn</title>
+</head>
+<body>
+    <header>
+        <h1>Tidningsnamn</h1>
+
+        <nav aria-label="Huvudnavigation">
+            <ul>
+                <li><a href="#hem">Hem</a></li>
+                <li><a href="#hela-artikeln">Senaste nytt</a></li>
+               <li><a href="#andra-artikeln">Arkiv</a></li>
+                <li><a href="#kontakt">Kontakta oss</a></li>
+            </ul>
+        </nav>
+
+        <form role="search">
+            <label for="sok">Sök på sidan</label>
+            <input type="search" id="sok" name="sok">
+            <button type="submit">Sök</button>
+        </form>
+    </header>
+    <main id="hem">
+        <article id="hela-artikeln">
+            <h2>Huvudartikelns titel</h2>
+                        <img src="pexels-javaistan-18941949.jpg" alt="Stadsmiljö med byggnader" width="600">
+            <p>Av Redaktionen</p>
+
+            <p>Här kommer texten till huvudartikeln.</p>
+
+            <blockquote>
+                <p>Ett viktigt citat från artikeln.</p>
+            </blockquote>
+
+            <a href="#hela-artikeln">Läs mer</a>
+        </article>
+              <article id="andra-artikeln">
+            <h2>Andra artikelns titel</h2>
+                  <img src="pexels-nate-274598-1036657.jpg" alt="Stadsmiljö" width="500">
+                  <p>Av Redaktionen</p>
+            <p>Här kommer texten till den andra artikeln.</p>
+            <a href="#andra-artikeln">Läs mer</a>
+        </article>
+
+        <article id="tredje-artikeln">
+            <h2>Tredje artikelns titel</h2>
+<img src="pexels-osman-karagoz-314140183-19103163.jpg" alt="Stadsmiljö" width="500">
+            <p>Av Redaktionen</p>
+            <p>Här kommer texten till den tredje artikeln.</p>
+            <a href="#tredje-artikeln">Läs mer</a>
+        </article>
+              <aside id="kontakt">
+            <h2>Tipsa redaktionen</h2>
+
+            <form>
+                <p>
+                    <label for="namn">Ditt namn</label>
+                    <input type="text" id="namn" name="namn" required>
+                </p>
+
+                <p>
+                    <label for="epost">Din e-post</label>
+                    <input type="email" id="epost" name="epost" required>
+                </p>
+
+                <p>
+                    <label for="telefon">Din telefon</label>
+                    <input type="tel" id="telefon" name="telefon">
+                </p>
+
+                <p>
+                    <label for="amne">Välj ämne</label>
+                    <select id="amne" name="amne">
+                        <option value="">Välj ett ämne</option>
+                        <option value="nyhet">Nyhetstips</option>
+                        <option value="fraga">Fråga</option>
+                        <option value="annat">Annat</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="meddelande">Meddelande</label>
+                    <textarea id="meddelande" name="meddelande" rows="5" required></textarea>
+                </p>
+
+                <p>
+                    <input type="checkbox" id="kontakta-mig" name="kontakta-mig">
+                    <label for="kontakta-mig">Kontakta mig</label>
+                </p>
+
+                <button type="submit">Skicka</button>
+
+                <p>GDPR och villkor gäller för inskickade meddelanden.</p>
+            </form>
+        </aside>
+    </main>
+      <footer>
+        <h2>Kontaktuppgifter</h2>
+
+        <address>
+            <p>Tidningsnamn AB</p>
+            <p>Storgatan 1, 111 22 Stockholm</p>
+            <p>Telefon: <a href="tel:+46812345678">08-123 45 678</a></p>
+            <p>E-post: <a href="mailto:info@example.com">info@example.com</a></p>
+        </address>
+
+        <nav aria-label="Sidfotsnavigation">
+            <ul>
+                <li><a href="#hem">Hem</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+                <li><a href="#tredje-artikeln">Tredje artikeln</a></li>
+            </ul>
+        </nav>
+
+        <p>Följ oss på sociala medier.</p>
+    </footer>
+</body>
+</html>
