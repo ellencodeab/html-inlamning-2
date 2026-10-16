@@ -14,10 +14,32 @@ CSS har validerats med W3C CSS Validator utan fel.
 
 En skärmbild av valideringsresultatet finns i repositoryt.
 
-## Responsiv design
+## Responsiv design och testning
 
-Webbsidan har testats på både dator och mobil (375 px).
-Layouten använder CSS Grid och Flexbox.
+Webbplatsen har testats i Safari på både dator och olika skärmstorlekar med hjälp av webbläsarens responsiva designläge.
+
+Följande skärmbredder har kontrollerats:
+
+- **320 px:** Test av en smal mobilskärm. Artiklarna visas under varandra och bilderna anpassas till skärmens bredd. Navigeringen, formuläret och sidfoten har kontrollerats. Hela sidan går att scrolla ned till slutet utan synliga layoutproblem.
+- **375 px:** Test av en vanlig mobilbredd. Innehållet visas i en kolumn och bilderna anpassas till skärmen.
+- **768 px:** Test av en större skärm. Artiklarna visas i två kolumner och bilderna håller sig inom sidans bredd. Även formuläret och sidfoten har kontrollerats.
+- **Dator:** Webbplatsen har öppnats och kontrollerats i en vanlig webbläsare för att se att layouten fungerar på större skärmar.
+
+Layouten är byggd med **CSS Grid och Flexbox**. CSS Grid används för att placera artiklarna i kolumner och Flexbox används för navigeringen. Med hjälp av en media query ändras artikel布局en till en kolumn på mindre skärmar.
+
+Vid testerna kontrollerades följande delar:
+
+- Sidans rubrik och navigering.
+- Artiklarna och deras placering.
+- Bildernas storlek och anpassning.
+- Textens läsbarhet.
+- Formulärets fält, knappar och placering.
+- Sidfotens kontaktuppgifter och länkar.
+- Möjligheten att scrolla genom hela sidan.
+
+Inga tydliga problem med överlappande innehåll eller horisontell överflödning upptäcktes vid de testade skärmstorlekarna.
+
+Webbplatsen har även validerats med **W3C CSS Validator**, som inte rapporterade några CSS-fel. En skärmbild av valideringsresultatet finns i GitHub-repositoryt.
 
 ## Användning av AI
 
